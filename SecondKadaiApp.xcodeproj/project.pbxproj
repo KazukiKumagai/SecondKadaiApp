@@ -14,6 +14,7 @@
 		DA840AE01E40C0CB002A895C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA840ADE1E40C0CB002A895C /* LaunchScreen.storyboard */; };
 		DA840AEB1E40C0CB002A895C /* SecondKadaiAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA840AEA1E40C0CB002A895C /* SecondKadaiAppTests.swift */; };
 		DA840AF61E40C0CC002A895C /* SecondKadaiAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA840AF51E40C0CC002A895C /* SecondKadaiAppUITests.swift */; };
+		DA840B041E40C1F0002A895C /* resultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA840B031E40C1F0002A895C /* resultViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		DA840AF11E40C0CC002A895C /* SecondKadaiAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SecondKadaiAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DA840AF51E40C0CC002A895C /* SecondKadaiAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondKadaiAppUITests.swift; sourceTree = "<group>"; };
 		DA840AF71E40C0CC002A895C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DA840B031E40C1F0002A895C /* resultViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = resultViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 			children = (
 				DA840AD51E40C0CB002A895C /* AppDelegate.swift */,
 				DA840AD71E40C0CB002A895C /* ViewController.swift */,
+				DA840B031E40C1F0002A895C /* resultViewController.swift */,
 				DA840AD91E40C0CB002A895C /* Main.storyboard */,
 				DA840ADC1E40C0CB002A895C /* Assets.xcassets */,
 				DA840ADE1E40C0CB002A895C /* LaunchScreen.storyboard */,
@@ -259,6 +262,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DA840B041E40C1F0002A895C /* resultViewController.swift in Sources */,
 				DA840AD81E40C0CB002A895C /* ViewController.swift in Sources */,
 				DA840AD61E40C0CB002A895C /* AppDelegate.swift in Sources */,
 			);
